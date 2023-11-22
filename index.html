@@ -1,21 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sydur Rahman</title>
     <style>
-        div{
-            height: 500px;
-            width:auto;
+        @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+        body {
+            margin: 0px;
+            height: 4000px;
+            display: grid;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+
+        .p {
+
+            width: auto;
+            background: linear-gradient(245deg, #1F176C 17.79%, #120D42 87.46%);
+        }
+
+        .q {
+
+            width: auto;
+            background-image: linear-gradient(to right, rgb(9, 1, 223), rgb(7, 0, 80));
+        }
+
+        .r {
+
+            width: auto;
+            background-image: linear-gradient(to right, rgb(24, 18, 174), rgb(17, 13, 62));
+        }
+
+        .s {
+
+            width: auto;
+            background-image: linear-gradient(to right, rgb(10, 6, 113), rgb(7, 0, 80));
+        }
+
+        .t {
+
+            width: auto;
+            background-image: linear-gradient(to right, rgb(24, 18, 174), rgb(22, 18, 71));
+        }
+
+        header {
+            height: 50px;
+            display: grid;
+            grid-template-columns: 30% 60% 10%;
+            background-color: rgba(127, 255, 212, 0);
+            font-family: Inter;
+
+        }
+
+        .p .p1 {
+            font-size: 60px;
+            margin-left: 10px;
+            background: linear-gradient(180deg, #926FE1 0%, #7885FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 36px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+            line-height: normal;
+            font-style: italic;
+        }
+
+        .p .p2 {
+            display: flex;
+            color: #9DF3FF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: normal;
+            background-color: #7886ff00;
+            flex-direction: row;
+            font-family: 'Quicksand', sans-serif;
+            justify-content: space-evenly;
+            align-content: center;
+            align-items: center;
+
+        }
+
+        .p .p3 {
+            display: flex;
+            color: #9DF3FF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: normal;
+            background-color: #7886ff00;
+            flex-direction: row;
+            font-family: 'Quicksand', sans-serif;
+            justify-content: space-evenly;
+            align-content: center;
+            align-items: center;
+        }
+
+        .p12 {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            color: #9DF3FF;
+            height: -webkit-fill-available;
+        }
+
+        .p13 {
+
+            background-clip: text;
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+        }
+
+        .p14 {
+            background: linear-gradient(180deg, #9270E1 28.65%, #7886FF 75.52%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: Inter;
+            font-size: 113px;
+            font-style: italic;
+            font-weight: 700;
+            margin-top: 50px;
+            line-height: 114px;
+            /* 100.885% */
+            letter-spacing: -4.52px;
+            display: flex;
+        }
+
+        .p15 {
+            color: white;
+
+        }
+
+        .num {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .n1 {
+
+            font-size: 50px;
+        }
+
+        .n2 {
+            font-size: 15px;
+        }
+
+        .nu {
+            display: flex;
+            flex-direction: row;
+            width: 531px;
+            justify-content: space-evenly;
+        }
+
+        .nn img {
+            height: 800px;
+        }
+
+        .sidecard {
+            width: 35px;
+            height: 250px;
+            background-color: rgba(0, 12, 104, 0.497);
+            position: fixed;
+            margin-top: 200px;
+            border-radius: 0px 30px 30px 0px;
+            padding: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .sidecard img {
+            height: 30px;
+            width: 30px;
         }
     </style>
 </head>
+
 <body>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
+    <div class="sidecard">
+        <img src="images/id.png">
+        <img src="images/in.png">
+        <img src="images/mail.png">
+        <img src="images/rg.png">
+    </div>
+    <div class="p">
+        <header>
+            <div class="p1">Sydur Rahman</div>
+            <div class="p2">
+                <a>Home</a>
+                <a>About me</a>
+                <a>Research</a>
+                <a>Projects</a>
+                <a>Contacts</a>
+            </div>
+            <div class="p3">log in</div>
+        </header>
+        <div class="p12">
+            <div class="p13">
+                <div class="p14">Engineer and Researcher</div>
+                <div class="p15">Research experience in metamaterials, microring resonators, and photonics. Skilled in
+                    CST microwave
+                    studio, COMSOL multiphysics, Lumerical, etc. photonics simulator software. Further skilled in MATLAB
+                    and
+                    programming languages like C, Python, PHP, etc. Currently doing Masters in Electrical and Electronic
+                    Engineering at Bangladesh University of Engineering and Technology (BUET). </div>
+                <div class="nu">
+                    <div class="num">
+                        <div class="n1">45</div>
+                        <div class="n2">Journals</div>
+                    </div>
+                    <div class="num">
+                        <div class="n1">45</div>
+                        <div class="n2">Projects</div>
+                    </div>
+                    <div class="num">
+                        <div class="n1">45</div>
+                        <div class="n2">Conferences</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="nn"><img src="ss.png"></div>
+        </div>
+    </div>
+    <div class="q">2</div>
+    <div class="r">3</div>
+    <div class="s">4</div>
+    <div class="t">5</div>
 </body>
+
 </html>

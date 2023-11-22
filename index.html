@@ -11,7 +11,7 @@
 
         body {
             margin: 0px;
-            height: 4000px;
+            height: 3500px;
             display: grid;
             grid-template-rows: 20% 20% 20% 20% 20%;
         }
@@ -23,9 +23,10 @@
         }
 
         .q {
-
+            display: flex;
             width: auto;
-            background-image: linear-gradient(to right, rgb(9, 1, 223), rgb(7, 0, 80));
+            background: linear-gradient(245deg, #1F176C 17.79%, #120D42 87.46%);
+            flex-direction: column;
         }
 
         .r {
@@ -182,16 +183,106 @@
             height: 30px;
             width: 30px;
         }
+
+        .pagehead {
+            height: 100px;
+            font-size: 50px;
+            align-content: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(180deg, #926FE1 0%, #7885FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 45px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 1000;
+            line-height: normal;
+            font-style: italic;
+        }
+
+        .q2 {
+            padding: 15px;
+        }
+
+        .qq {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            width: 1200px;
+            background-color: #1F176C;
+            height: 70%;
+            align-self: center;
+        }
+
+        .q3 {
+            margin-top: 5px;
+            font-size: 25px;
+            color: aqua;
+        }
+
+        .q4 {
+            margin-top: 15px;
+            font-size: 15px;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .q5 {
+            font-size: 10px;
+        }
+
+        .qr img {
+            margin-top: 15px;
+            width: -webkit-fill-available;
+            height: 80%;
+            border-radius: 0px 300px 500px 0px;
+        }
+
+        .q7 {
+            color: aliceblue;
+        }
+
+        .q5 {
+            background-color: rgba(12, 0, 139, 0.311);
+            color: rgb(255, 255, 255);
+            border: 1px solid rgb(17, 0, 102);
+            font-size: 15px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .q5:hover {
+            background-color: rgb(17, 0, 102);
+            color: white;
+        }
+        .q8{
+            margin-top: 10px;
+            width: 250px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .r1{
+            height: 150px;
+            width:150px;
+            background-color: #120D42;
+            margin: 10px;
+        }
+        .rr{
+            display: flex;
+            flex-direction: row;
+        }
     </style>
 </head>
+<div class="sidecard">
+    <img src="images/id.png">
+    <img src="images/in.png">
+    <img src="images/mail.png">
+    <img src="images/rg.png">
+</div>
 
 <body>
-    <div class="sidecard">
-        <img src="images/id.png">
-        <img src="images/in.png">
-        <img src="images/mail.png">
-        <img src="images/rg.png">
-    </div>
+
     <div class="p">
         <header>
             <div class="p1">Sydur Rahman</div>
@@ -232,9 +323,48 @@
             <div class="nn"><img src="ss.png"></div>
         </div>
     </div>
-    <div class="q">2</div>
-    <div class="r">3</div>
-    <div class="s">4</div>
+    <div class="q">
+        <div class="pagehead">Research Background</div>
+        <div class="qq">
+            <div class="qr"><img src="images/tree.jpg"></div>
+            <div class="q2">
+                <div class="q3">OPTIMIZATION OF MICRORING RESONATOR FOR ULTRAFAST OPTICS IN COMSOL MULTIPHYSICS</div>
+                <div class="q4">Solar spectrum is supposed to be a key source of renewable energy in the form of
+                    electromagnetic (EM) radiation. For efficiently harnessing this abundant energy, Metamaterial
+                    Absorber (MMA) emerges as a game-changing tool. Along with solar energy harvesting, MMA can be used
+                    in biochemical sensors, optical modulators, magnetic resonance imaging, photoelectric detectors,
+                    plasmonic sensors, etc. In this paper, a sun shape resonator-based MMA is designed with three layers
+                    of materials (W-SiO 2 -W) and analysed for broadband absorption encompassing the entire visible
+                    region (390-760nm). The unit cell that is presented in this study is polarization-insensitive and
+                    ultrathin with an average absorption of 96.43% with an optimum peak of 99.99% at 523.22nm. The
+                    proposed MMA exhibits satisfactory absorption under various oblique angles. The effect of mechanical
+                    loading is also investigated and the MMA is found to hold good broadband absorbance for some extents
+                    of mechanical bending. Finite Integration Technique (FIT) is used to numerically simulate the
+                    proposed MMA unit cell structure and validated with the Finite Element Method (FEM). The suggested
+                    MMA in this paper can be used in many optical applications like efficient nano solar cells, imaging
+                    applications, sensors, light detectors, biochemical applications, etc</div>
+                <div class="q7">Poblisher: IEEE</div>
+                <div class="q7">Publishing Date: 45.12.12</div>
+                <div class="q8">
+                    <div class="q5"><a>Go to the link</a></div>
+                    <div class="q5"><a>Download Pdf</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="r">
+        <div class="pagehead">Skills & Quality</div>
+        <div class="rr">
+<div class="r1"><img src="images/in.png">
+</div>
+<div class="r1">2</div>
+<div class="r1">2</div>
+<div class="r1">2</div>
+        </div>
+    </div>
+    <div class="s">
+        <div class="pagehead">Projects</div>
+    </div>
     <div class="t">5</div>
 </body>
 

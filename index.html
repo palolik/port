@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Sydur Rahman</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -219,7 +221,10 @@
             width: 1200px;
             background-color: #1F176C;
             height: 70%;
+            position: relative;
+
             align-self: center;
+
         }
 
         .q3 {
@@ -412,10 +417,10 @@
         }
 
         .uu {
-    width: -webkit-fill-available;
-    display: flex;
-    flex-direction: row;
-}
+            width: -webkit-fill-available;
+            display: flex;
+            flex-direction: row;
+        }
 
         .u2 {
             display: flex;
@@ -432,16 +437,48 @@
             justify-content: space-between;
             margin: 5px;
         }
-        .up{
+
+        .up {
             display: flex;
             flex-direction: row;
         }
-        .un{
+
+        .un {
             width: inherit;
         }
-        .upt{
+
+        .upt {
             color: white;
             font-size: 15px;
+        }
+        .swiper {
+            width: 1000px;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background-color: rgba(240, 248, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            object-fit: cover;
+        }
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 140px !important;
+            left: auto;
+        }
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            left: 140px !important;
+            right: auto;
         }
     </style>
 </head>
@@ -496,32 +533,123 @@
     </div>
     <div class="q">
         <div class="pagehead">Research Background</div>
-        <div class="qq">
-            <div class="qr"><img src="images/tree.jpg"></div>
-            <div class="q2">
-                <div class="q3">OPTIMIZATION OF MICRORING RESONATOR FOR ULTRAFAST OPTICS IN COMSOL MULTIPHYSICS</div>
-                <div class="q4">Solar spectrum is supposed to be a key source of renewable energy in the form of
-                    electromagnetic (EM) radiation. For efficiently harnessing this abundant energy, Metamaterial
-                    Absorber (MMA) emerges as a game-changing tool. Along with solar energy harvesting, MMA can be used
-                    in biochemical sensors, optical modulators, magnetic resonance imaging, photoelectric detectors,
-                    plasmonic sensors, etc. In this paper, a sun shape resonator-based MMA is designed with three layers
-                    of materials (W-SiO 2 -W) and analysed for broadband absorption encompassing the entire visible
-                    region (390-760nm). The unit cell that is presented in this study is polarization-insensitive and
-                    ultrathin with an average absorption of 96.43% with an optimum peak of 99.99% at 523.22nm. The
-                    proposed MMA exhibits satisfactory absorption under various oblique angles. The effect of mechanical
-                    loading is also investigated and the MMA is found to hold good broadband absorbance for some extents
-                    of mechanical bending. Finite Integration Technique (FIT) is used to numerically simulate the
-                    proposed MMA unit cell structure and validated with the Finite Element Method (FEM). The suggested
-                    MMA in this paper can be used in many optical applications like efficient nano solar cells, imaging
-                    applications, sensors, light detectors, biochemical applications, etc</div>
-                <div class="q7">Poblisher: IEEE</div>
-                <div class="q7">Publishing Date: 45.12.12</div>
-                <div class="q8">
-                    <div class="q5"><a>Go to the link</a></div>
-                    <div class="q5"><a>Download Pdf</a></div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="qq">
+                <div class="qr"><img src="images/tree.jpg"></div>
+                <div class="q2">
+                    <div class="q3">OPTIMIZATION OF MICRORING RESONATOR FOR ULTRAFAST OPTICS IN COMSOL MULTIPHYSICS</div>
+                    <div class="q4">Solar spectrum is supposed to be a key source of renewable energy in the form of
+                        electromagnetic (EM) radiation. For efficiently harnessing this abundant energy, Metamaterial
+                        Absorber (MMA) emerges as a game-changing tool. Along with solar energy harvesting, MMA can be used
+                        in biochemical sensors, optical modulators, magnetic resonance imaging, photoelectric detectors,
+                        plasmonic sensors, etc. In this paper, a sun shape resonator-based MMA is designed with three layers
+                        of materials (W-SiO 2 -W) and analysed for broadband absorption encompassing the entire visible
+                        region (390-760nm). The unit cell that is presented in this study is polarization-insensitive and
+                        ultrathin with an average absorption of 96.43% with an optimum peak of 99.99% at 523.22nm. The
+                        proposed MMA exhibits satisfactory absorption under various oblique angles. The effect of mechanical
+                        loading is also investigated and the MMA is found to hold good broadband absorbance for some extents
+                        of mechanical bending. Finite Integration Technique (FIT) is used to numerically simulate the
+                        proposed MMA unit cell structure and validated with the Finite Element Method (FEM). The suggested
+                        MMA in this paper can be used in many optical applications like efficient nano solar cells, imaging
+                        applications, sensors, light detectors, biochemical applications, etc</div>
+                    <div class="q7">Poblisher: IEEE</div>
+                    <div class="q7">Publishing Date: 45.12.12</div>
+                    <div class="q8">
+                        <div class="q5"><a>Go to the link</a></div>
+                        <div class="q5"><a>Download Pdf</a></div>
+                    </div>
                 </div>
             </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="qq">
+                <div class="qr"><img src="images/tree.jpg"></div>
+                <div class="q2">
+                    <div class="q3">OPTIMIZATION OF MICRORING RESONATOR FOR ULTRAFAST OPTICS IN COMSOL MULTIPHYSICS</div>
+                    <div class="q4">Solar spectrum is supposed to be a key source of renewable energy in the form of
+                        electromagnetic (EM) radiation. For efficiently harnessing this abundant energy, Metamaterial
+                        Absorber (MMA) emerges as a game-changing tool. Along with solar energy harvesting, MMA can be used
+                        in biochemical sensors, optical modulators, magnetic resonance imaging, photoelectric detectors,
+                        plasmonic sensors, etc. In this paper, a sun shape resonator-based MMA is designed with three layers
+                        of materials (W-SiO 2 -W) and analysed for broadband absorption encompassing the entire visible
+                        region (390-760nm). The unit cell that is presented in this study is polarization-insensitive and
+                        ultrathin with an average absorption of 96.43% with an optimum peak of 99.99% at 523.22nm. The
+                        proposed MMA exhibits satisfactory absorption under various oblique angles. The effect of mechanical
+                        loading is also investigated and the MMA is found to hold good broadband absorbance for some extents
+                        of mechanical bending. Finite Integration Technique (FIT) is used to numerically simulate the
+                        proposed MMA unit cell structure and validated with the Finite Element Method (FEM). The suggested
+                        MMA in this paper can be used in many optical applications like efficient nano solar cells, imaging
+                        applications, sensors, light detectors, biochemical applications, etc</div>
+                    <div class="q7">Poblisher: IEEE</div>
+                    <div class="q7">Publishing Date: 45.12.12</div>
+                    <div class="q8">
+                        <div class="q5"><a>Go to the link</a></div>
+                        <div class="q5"><a>Download Pdf</a></div>
+                    </div>
+                </div>
+            </div>
+                </div>   <div class="swiper-slide">
+                    <div class="qq">
+                <div class="qr"><img src="images/tree.jpg"></div>
+                <div class="q2">
+                    <div class="q3">OPTIMIZATION OF MICRORING RESONATOR FOR ULTRAFAST OPTICS IN COMSOL MULTIPHYSICS</div>
+                    <div class="q4">Solar spectrum is supposed to be a key source of renewable energy in the form of
+                        electromagnetic (EM) radiation. For efficiently harnessing this abundant energy, Metamaterial
+                        Absorber (MMA) emerges as a game-changing tool. Along with solar energy harvesting, MMA can be used
+                        in biochemical sensors, optical modulators, magnetic resonance imaging, photoelectric detectors,
+                        plasmonic sensors, etc. In this paper, a sun shape resonator-based MMA is designed with three layers
+                        of materials (W-SiO 2 -W) and analysed for broadband absorption encompassing the entire visible
+                        region (390-760nm). The unit cell that is presented in this study is polarization-insensitive and
+                        ultrathin with an average absorption of 96.43% with an optimum peak of 99.99% at 523.22nm. The
+                        proposed MMA exhibits satisfactory absorption under various oblique angles. The effect of mechanical
+                        loading is also investigated and the MMA is found to hold good broadband absorbance for some extents
+                        of mechanical bending. Finite Integration Technique (FIT) is used to numerically simulate the
+                        proposed MMA unit cell structure and validated with the Finite Element Method (FEM). The suggested
+                        MMA in this paper can be used in many optical applications like efficient nano solar cells, imaging
+                        applications, sensors, light detectors, biochemical applications, etc</div>
+                    <div class="q7">Poblisher: IEEE</div>
+                    <div class="q7">Publishing Date: 45.12.12</div>
+                    <div class="q8">
+                        <div class="q5"><a>Go to the link</a></div>
+                        <div class="q5"><a>Download Pdf</a></div>
+                    </div>
+                </div>
+            </div>
+                </div>   <div class="swiper-slide">
+                    <div class="qq">
+                <div class="qr"><img src="images/tree.jpg"></div>
+                <div class="q2">
+                    <div class="q3">OPTIMIZATION OF MICRORING RESONATOR FOR ULTRAFAST OPTICS IN COMSOL MULTIPHYSICS</div>
+                    <div class="q4">Solar spectrum is supposed to be a key source of renewable energy in the form of
+                        electromagnetic (EM) radiation. For efficiently harnessing this abundant energy, Metamaterial
+                        Absorber (MMA) emerges as a game-changing tool. Along with solar energy harvesting, MMA can be used
+                        in biochemical sensors, optical modulators, magnetic resonance imaging, photoelectric detectors,
+                        plasmonic sensors, etc. In this paper, a sun shape resonator-based MMA is designed with three layers
+                        of materials (W-SiO 2 -W) and analysed for broadband absorption encompassing the entire visible
+                        region (390-760nm). The unit cell that is presented in this study is polarization-insensitive and
+                        ultrathin with an average absorption of 96.43% with an optimum peak of 99.99% at 523.22nm. The
+                        proposed MMA exhibits satisfactory absorption under various oblique angles. The effect of mechanical
+                        loading is also investigated and the MMA is found to hold good broadband absorbance for some extents
+                        of mechanical bending. Finite Integration Technique (FIT) is used to numerically simulate the
+                        proposed MMA unit cell structure and validated with the Finite Element Method (FEM). The suggested
+                        MMA in this paper can be used in many optical applications like efficient nano solar cells, imaging
+                        applications, sensors, light detectors, biochemical applications, etc</div>
+                    <div class="q7">Poblisher: IEEE</div>
+                    <div class="q7">Publishing Date: 45.12.12</div>
+                    <div class="q8">
+                        <div class="q5"><a>Go to the link</a></div>
+                        <div class="q5"><a>Download Pdf</a></div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
     </div>
     <div class="r">
         <div class="pagehead">Skills & Quality</div>
@@ -656,26 +784,29 @@
             </div>
 
             <div class="uu">
-               <div class="upt">
-               <p> Important Links</p>
-                <li>Alpha Science Lab</li>
-                <li>Alpha Science Lab</li>
-                <li>Alpha Science Lab</li>
-                <li>Alpha Science Lab</li>
-              
-               </div>
-               <div  class="upt">
-                <p>Contact Info:</p>
-<li>01682508906</li>
-<li>asd</li>
-<li>rt</li>
-               </div>
-               <div  class="upt">
-                <p>Social Media Links:</p>
-<li>01682508906</li>
-<li>asd</li>
-<li>rt</li>
-               </div>
+                <div class="upt">
+                    <p> Important Links</p>
+
+
+
+                    <li>Alpha Science Lab</li>
+                    <li>Alpha Science Lab</li>
+                    <li>Alpha Science Lab</li>
+                    <li>Alpha Science Lab</li>
+
+                </div>
+                <div class="upt">
+                    <p>Contact Info:</p>
+                    <li>01682508906</li>
+                    <li>asd</li>
+                    <li>rt</li>
+                </div>
+                <div class="upt">
+                    <p>Social Media Links:</p>
+                    <li>01682508906</li>
+                    <li>asd</li>
+                    <li>rt</li>
+                </div>
             </div>
         </div>
         <div>
@@ -683,6 +814,19 @@
         </div>
     </div>
 </body>
-<script src="https://cdn.lordicon.com/lordicon-1.4.1.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+    });
+</script>
 
 </html>
